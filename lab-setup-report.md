@@ -21,9 +21,11 @@ as the target VM, and set both to a Host-Only network so they can reach each oth
 without exposing the lab to the internet.
 
 **Screenshots:** `/screenshots/setup`
-- `screenshots/setup/VirtualBox_kali_01_terminal.png` — Kali Linux booted and ready
-- `screenshots/setup/VirtualBox_kali_ifconfig.png` / `screenshots/setup/VirtualBox_Metaspoitable2_ifconfig.png ` — confirming both VMs are on the same subnet
-- `screenshots/setup/VirtualBox_kali_ping_targetVM.png` — verifying connectivity between attacker and target
+**Screenshots:**
+![Kali Terminal](screenshots/setup/VirtualBox_kali_01_terminal.png)
+![Kali Ifconfig](screenshots/setup/VirtualBox_kali_ifconfig.png)
+![Metasploitable2 Ifconfig](screenshots/setup/VirtualBox_Metasploitable2_ifconfig.png)
+![Ping Target VM](screenshots/setup/VirtualBox_kali_ping_targetVM.png)
 
 ## 3. Linux Fundamentals
 Practiced file system navigation (`cd`, `ls`, `pwd`), permissions (`chmod`, `chown`), 
@@ -38,16 +40,19 @@ addressing/subnetting/NAT concepts that underpin the scanning work in Task 2.
 Covered symmetric vs asymmetric encryption and hashing (MD5, SHA256), then did a 
 hands-on encrypt/decrypt exercise using OpenSSL.
 
-**Screenshot:** `/screenshots/tools/VirtualBox_cryptotask1(1).png`
+**Screenshot:** 
+![Crypto Task](screenshots/tools/VirtualBox_cryptotask1(1).png)
 
 ## 6. Tool Familiarization
-- **Nmap** — ran a scan against the Metasploitable2 target → `screenshots/tools/VirtualBox_nmaptargetscan.png`
-- **Wireshark** — captured ICMP traffic and inspected IP-level packet data → 
-  `screenshots/tools/VirtualBox_wireshark_icmp.png`, `screenshots/tools/VirtualBox_wireshark_ipaddress.png`
-- **Burp Suite** — set up the proxy and explored intercept/HTTP history → 
-  `screenshots/tools/VirtualBox_burpsuite1.png`
-- **Netcat** — tested file transfer between the two VMs → 
-  `screenshots/tools/VirtualBox_netcat_filetransfer.png`
+- **Nmap** — ran a scan against the Metasploitable2 target  
+  ![Nmap Scan](screenshots/tools/VirtualBox_nmaptargetscan.png)
+- **Wireshark** — captured ICMP traffic and inspected IP-level packet data  
+  ![Wireshark ICMP](screenshots/tools/VirtualBox_wireshark_icmp.png)
+  ![Wireshark IP Address](screenshots/tools/VirtualBox_wireshark_ipaddress.png)
+- **Burp Suite** — set up the proxy and explored intercept/HTTP history  
+  ![Burp Suite](screenshots/tools/VirtualBox_burpsuite1.png)
+- **Netcat** — tested file transfer between the two VMs  
+  ![Netcat File Transfer](screenshots/tools/VirtualBox_netcat_filetransfer.png)
 
 ## Conclusion
 The lab environment is fully functional, with Kali Linux and Metasploitable2 
