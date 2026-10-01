@@ -22,7 +22,7 @@ without exposing the lab to the internet.
 
 **Screenshots:** `/screenshots/setup`
 - `kali_terminal.png` — Kali Linux booted and ready
-- `kali_ifconfig.png` / `metasploitable2_ifconfig.png` — confirming both VMs are on the same subnet
+- `kali_ifconfig.png` / `[metasploitable2_ifconfig.png](https://github.com/0xvedanshi/Task-1-/blob/main/screenshots/setup/VirtualBox_Metasploitable2_ifconfig.png)` — confirming both VMs are on the same subnet
 - `kali_ping_target.png` — verifying connectivity between attacker and target
 
 ## 3. Linux Fundamentals
